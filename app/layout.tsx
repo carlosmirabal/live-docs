@@ -5,6 +5,7 @@ import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
+import Provider from "./Provider";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -35,7 +36,7 @@ export default function RootLayout({
             fontSans.variable
           )}
         >
-          {children}
+          <Provider>{children}</Provider>
         </body>
       </html>
     </ClerkProvider>
