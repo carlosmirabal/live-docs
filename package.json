@@ -12,8 +12,8 @@
     "@clerk/nextjs": "^5.5.2",
     "@clerk/themes": "^2.1.29",
     "@lexical/react": "^0.16.1",
-    
     "@radix-ui/react-slot": "^1.1.0",
+    "@sentry/nextjs": "^8.30.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "jsm-editor": "^0.0.12",
@@ -43,8 +43,7 @@
     "@liveblocks/react-lexical": "^2.7.1",
     "@liveblocks/react-ui": "^2.7.1"
   },
-"overrides": {
+  "overrides": {
     "@liveblocks/core": "2.7.1"
   }
-  
 }
